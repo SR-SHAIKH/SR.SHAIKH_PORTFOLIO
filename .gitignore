@@ -1,0 +1,18 @@
+# Dependencies
+**/node_modules/
+
+# Next.js build output
+**/.next/
+**/out/
+
+# Environment files
+**.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large/Temporary files
+*.log
+help.txt
+.gemini/

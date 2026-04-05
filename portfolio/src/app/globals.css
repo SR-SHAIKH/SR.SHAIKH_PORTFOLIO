@@ -1,0 +1,77 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800&f[]=satoshi@500,700,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-base text-white font-body overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer utilities {
+  .bg-pattern {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px);
+    background-size: 32px 32px;
+  }
+  
+  .bg-pattern-light {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px);
+    background-size: 32px 32px;
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 2px #fdd029fc;
+    color: transparent;
+  }
+  .text-work {
+    -webkit-text-stroke: 2px #090909fc;
+    color: transparent;
+  }
+}
+
+@layer components {
+  .brutal-border {
+    @apply border-2 border-black;
+  }
+
+  .brutal-card {
+    @apply brutal-border bg-white text-black shadow-brutal rounded-xl;
+  }
+
+  .brutal-btn {
+    @apply brutal-border shadow-brutal-sm rounded-xl font-bold transition-all duration-200;
+  }
+
+  .brutal-btn:hover {
+    @apply translate-x-1 translate-y-1 shadow-none;
+  }
+
+  .brutal-btn:active {
+    @apply scale-95;
+  }
+}
+
+/* Tech Orb utilities */
+.orb-glow {
+  background: radial-gradient(circle, rgba(255, 225, 124, 0.35) 0%, rgba(255, 225, 124, 0.08) 50%, transparent 70%);
+  filter: blur(2px);
+}
+
+/* Counter-rotate children so text stays upright inside rotating rings */
+.counter-rotate-slow {
+  animation: orbit-reverse 45s linear infinite;
+}
+.counter-rotate-reverse {
+  animation: orbit-slow 55s linear infinite;
+}
+/* Centered modal animation */
+@keyframes modalPop {
+  0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}

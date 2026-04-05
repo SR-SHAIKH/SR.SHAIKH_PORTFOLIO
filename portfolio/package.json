@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.15.19",
-    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
     "next": "14.2.35",

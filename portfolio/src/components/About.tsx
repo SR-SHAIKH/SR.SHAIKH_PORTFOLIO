@@ -28,7 +28,7 @@ export default function About() {
     try {
       await emailjs.send(
         "service_kz2q18l", // Service ID
-        "template_xb9rww9", // Template ID
+        "template_sa2clua", // Template ID
         {
           name: form.name,
           email: form.email,

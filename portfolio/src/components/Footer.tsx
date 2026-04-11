@@ -9,7 +9,10 @@ export default function Footer() {
         <div className="font-bold text-white/50 space-x-6">
           <a href="#" className="hover:text-primary transition-colors">Resume</a>
           <a href="https://github.com/SR-SHAIKH" className="hover:text-primary transition-colors">GitHub</a>
-          <a href="https://in.linkedin.com/in/sr-shaikh-9a2240247" className="hover:text-primary transition-colors">LinkedIn</a>
+          <a href="https://in.linkedin.com/in/sr-shaikh" className="hover:text-primary transition-colors">LinkedIn</a>
+          {/* <a href="https://www.instagram.com/_sr.shaikh.07_" className="font-bold underline text-primary hover:text-white transition-colors">Instagram</a> */}
+          <a href="https://www.instagram.com/_sr.shaikh.07_" className="hover:text-primary transition-colors">Instagram</a>
+
         </div>
 
         <div className="font-bold text-white/50 text-sm">

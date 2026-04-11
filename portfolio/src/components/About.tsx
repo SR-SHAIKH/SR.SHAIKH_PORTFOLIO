@@ -122,6 +122,7 @@ export default function About() {
           <div className="flex gap-4">
             <a href="https://github.com/SR-SHAIKH" className="font-bold underline text-primary hover:text-white transition-colors">GitHub</a>
             <a href="https://in.linkedin.com/in/sr-shaikh-9a2240247" className="font-bold underline text-primary hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://www.instagram.com/_sr.shaikh.07_" className="font-bold underline text-primary hover:text-white transition-colors">Instagram</a>
           </div>
 
         </div>

@@ -58,9 +58,9 @@ export default function Hero() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="relative flex items-center justify-center lg:justify-end w-full"
+          className="relative z-0 flex items-center justify-center lg:justify-end w-full mt-12 lg:mt-0"
         >
-          <SphereImageGrid className="pointer-events-auto" />
+          <SphereImageGrid className="pointer-events-auto scale-75 md:scale-100 origin-center" />
         </motion.div>
       </div>
     </section>
